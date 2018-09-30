@@ -8,8 +8,8 @@
     "webpack:dev": "webpack",
     "webpack:prod": "webpack -p --env production",
     "dev-server": "webpack-dev-server",
-    "start":"node server/server.js",
-    "heroku-postbuild":"yarn run webpack:prod"
+    "start": "node server/server.js",
+    "heroku-postbuild": "yarn run webpack:prod"
   },
   "dependencies": {
     "babel-cli": "6.24.1",
@@ -22,7 +22,6 @@
     "css-loader": "0.28.4",
     "express": "4.15.4",
     "extract-text-webpack-plugin": "3.0.0",
-    "live-server": "^1.2.0",
     "moment": "2.18.1",
     "node-sass": "4.5.3",
     "normalize.css": "7.0.0",
@@ -38,7 +37,12 @@
     "style-loader": "0.18.2",
     "uuid": "^3.3.2",
     "validator": "8.0.0",
-    "webpack": "3.1.0",
+    "webpack": "3.1.0"
+    
+  },
+  "devDependencies": {
+    "chalk": "^2.4.1",
+    "live-server": "^1.2.0",
     "webpack-dev-server": "2.5.1"
   }
 }

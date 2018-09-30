@@ -26,7 +26,7 @@ render(){
         onChange={(e)=>{this.props.dispatch(setTextFilter(e.target.value));}}/>
         <select onChange={(e)=>{
             if(e.target.value=='date'){
-                this.props.diapatch(sortByDate());
+                this.props.dispatch(sortByDate());
             }else if(e.target.value=='amount'){
                 this.props.dispatch(sortByAmount());
             }
